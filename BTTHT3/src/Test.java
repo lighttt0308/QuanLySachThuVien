@@ -18,6 +18,16 @@ public class Test {
             System.out.println("----------------------");
         }
         System.out.println("Tong so dau sach: " + ds.size());
-
+        Sach Sach4=new Sach();
+        Sach4.setMaSach("S004");
+        Sach4.setTieuDe("Lịch sử Đảng");
+        Sach4.setTacGia("Từ Ánh Nguyệt");
+        Sach4.setNamXuatBan(2025);
+        Sach4.setSoLuong(50);
+        Sach4.hienThiThongTin();
+        Sach Sach5=new Sach("S005","Triết học","Lê Văn Thao",2018,50);
+        Sach5.hienThiThongTin();
     }
+
+
 }
